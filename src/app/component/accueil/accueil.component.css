@@ -1,0 +1,49 @@
+/* accueil.component.css */
+body {
+    padding-bottom: 60px; /* La hauteur du footer */
+    color: #3b6c9d;
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+/* styles.css */
+.navbar {
+background-color: #010408;
+
+}
+/* Aligner les produits côte à côte */
+.card {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Ajouter des couleurs différentes aux cartes de produits */
+  .card:nth-child(odd) {
+    background-color: #f8f9fa; /* Couleur de fond pour les éléments impairs */
+  }
+  
+  .card:nth-child(even) {
+    background-color: #e9ecef; /* Couleur de fond pour les éléments pairs */
+  }
+ /* Style pour la section FAQ */
+ .faq-section {
+    margin-top: 50px;
+  }
+
+  .accordion-item {
+    margin-bottom: 15px;
+  }
+
+  .accordion-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .accordion-button:hover {
+    background-color: #0056b3;
+  }    

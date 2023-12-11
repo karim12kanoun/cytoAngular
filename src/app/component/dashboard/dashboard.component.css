@@ -1,0 +1,97 @@
+
+/* home */
+.home{
+    background-color: rgb(101, 111, 252);
+    font-family: 'arial', cursive;
+}
+
+.home h2{
+    color: #A82C48;
+}
+
+
+.hero .nav-link{
+    font-size: 18px;
+    color: #7e4d33;
+}
+
+.hero button{
+    background-color: #C08261;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgb(150, 149, 149);
+}
+
+.hero button:hover{
+    background-color: #ac7456;
+    box-shadow: 4px 4px 8px #C08261;
+}
+
+/* about */
+.about{
+    font-family: 'arial', cursive;
+}
+
+.about h2{
+    color: #A82C48;
+}
+
+.about  a{
+    background-color: #C08261;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgb(150, 149, 149);
+}
+
+.about  a:hover{
+    background-color: #ac7456;
+    box-shadow: 4px 4px 8px #C08261;
+}
+
+
+
+/* blog */
+.blog{
+    font-family: 'Pacifico', cursive;
+}
+
+.blog  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C08261;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgb(150, 149, 149);
+}
+
+.blog  a:hover{
+    background-color: #ac7456;
+    box-shadow: 4px 4px 8px #C08261;
+}
+
+.blog img:hover{
+    opacity: 0.5;
+}
+
+.blog h3{
+    color: #A82C08;;
+}
+
+
+
+/* video-gallery */
+.video-gallery{
+    font-family: 'Pacifico', cursive;
+}
+
+.video-gallery h2{
+    color: #A82C48;
+}
+
+.video-gallery  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C08261;
+    color: #fff;
+    box-shadow: 2px 2px 4px rgb(150, 149, 149);
+}
+
+.video-gallery  a:hover{
+    background-color: #ac7456;
+    box-shadow: 4px 4px 8px #C08261;
+}

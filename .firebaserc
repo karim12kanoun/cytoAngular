@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cytogen-17597": {
+      "hosting": {
+        "cytogenAngular": [
+          "cytogen-17597"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cytogen-17597"
+  }
+}

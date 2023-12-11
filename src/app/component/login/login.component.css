@@ -1,0 +1,22 @@
+
+
+.tout {
+    background-image: url('../../../assets/cytogenetique.jpg');
+    /* Autres propriétés selon les besoins */
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 1px; /* Supprime les rembourrages par défaut du corps */
+    height: 100vh; 
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 18px;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,9,61.125);
+    border-radius: 2.25rem;
+}

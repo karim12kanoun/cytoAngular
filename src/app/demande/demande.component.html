@@ -1,0 +1,19 @@
+
+
+<table>
+    <tr>
+      <th>Pathologies</th>
+      <th>Symptômes</th>
+      <th>Antécédents</th>
+      <th>Fiche Médicale</th>
+      <th>Pièce Jointe</th>
+    </tr>
+    <tr *ngFor="let formulaire of formulaires | async">
+      <td>{{ formulaire.pathologies }}</td>
+      <td>{{ formulaire.symptomes }}</td>
+      <td>{{ formulaire.antecedents }}</td>
+      <td>{{ formulaire.ficheMedicale }}</td>
+      <td>{{ formulaire.pieceJointe }}</td>
+    </tr>
+  </table>
+  

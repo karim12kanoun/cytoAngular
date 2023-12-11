@@ -1,0 +1,65 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Ma Marketplace</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/accueil">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/formulaire">formulaire</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/demande">Vos Demandes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="tout">
+<div class="container-fluid">
+  <div class="row mt-5">  
+
+      <div class="col">
+         <div class="col-4">
+          <div class="card shadow">
+               <div class="card-body">
+                    <form (ngSubmit)="submit()">
+                      <label>
+                        Pathologies:
+                        <input [(ngModel)]="pathologies" name="pathologies">
+                      </label>
+                      <label>
+                        Symptômes:
+                        <input [(ngModel)]="symptomes" name="symptomes">
+                      </label>
+                      <label>
+                        Antécédents:
+                        <input [(ngModel)]="antecedents" name="antecedents">
+                      </label>
+                      <label>
+                        Fiche Médicale:
+                        <input [(ngModel)]="ficheMedicale" name="ficheMedicale">
+                      </label>
+                      <label>
+                        Pièce Jointe:
+                        <input [(ngModel)]="pieceJointe" name="pieceJointe">
+                      </label>
+                      <button type="submit">Submit</button>
+                      <p>{{ message }}</p>
+                    </form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
